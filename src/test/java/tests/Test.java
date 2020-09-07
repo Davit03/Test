@@ -17,7 +17,7 @@ public class Test extends Data {
     @org.testng.annotations.Test
     public void verify_header_text(){
         Page log = new Page();
-        Assert.assertEquals("CAREER SEARCH STARTS HERE>", log.header_text());
+        Assert.assertEquals("CAREER SEARCH STARTS HERE", log.header_text());
 
 
     }
